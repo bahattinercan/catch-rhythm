@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe3ffeb8a9483f4a8f1afd16aa2ba6e, type: 3}
+  m_Name: Music SO 38
+  m_EditorClassIdentifier: 
+  id: 38
+  canPlay: 0
+  clip: {fileID: 8300000, guid: 048595fd9489cf1499d901f49cb7eb44, type: 3}
+  score: 0
+  star: 0
+  image: {fileID: 21300000, guid: 1477765a5a462c94394d8655c04a3854, type: 3}
+  easyLevel: 1

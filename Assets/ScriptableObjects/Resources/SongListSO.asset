@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9873adf483298e64c9e1531b744b5087, type: 3}
+  m_Name: SongListSO
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 5c3d3b49f4b16d1459fd7518b01fe7ff, type: 3}
+  - {fileID: 8300000, guid: 3d91f1331bb168f4293250eaab124087, type: 3}
+  - {fileID: 8300000, guid: b37380f7ac51b1546a30dd6a1751baf8, type: 3}
+  - {fileID: 8300000, guid: ba855d83b1c5b424f8342c607a02e500, type: 3}
+  - {fileID: 8300000, guid: 50bb47bd3063625468cfda8e705995f6, type: 3}
+  - {fileID: 8300000, guid: e220b18ecbfc76b40864df68290ee800, type: 3}
+  - {fileID: 8300000, guid: 9401a139d919f504bb2d27f3bc8715c5, type: 3}
+  - {fileID: 8300000, guid: 00c8f685dd57e0e48a15d26925bc2910, type: 3}
+  - {fileID: 8300000, guid: de67ca25b21997349bc9f2d7b2eddbde, type: 3}
+  - {fileID: 8300000, guid: 3e1254105a654d340aa1285b658ed7bd, type: 3}
+  - {fileID: 8300000, guid: 2c95553552902ab4486c65e7361792e3, type: 3}
+  - {fileID: 8300000, guid: 843cd031baa58fb4e94b1e46f05a1aff, type: 3}
+  clipIndex: 10
