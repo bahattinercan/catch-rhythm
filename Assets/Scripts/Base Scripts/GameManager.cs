@@ -53,11 +53,11 @@ public class GameManager : MonoBehaviour, IDataPersistence
     private float changeColorTime = 15f;
 
     public float obsRotationAngle = 40;
-    public float spawnDelay = .199f;
-    public float theLowestSpawnDelay = .299f;
-    public float changeSpawnDelayValue = .025f;
+    public float spawnDelay;
+    public float theLowestSpawnDelay;
+    public float changeSpawnDelayValue;
     public float changeSpawnDelayTime = 30f;
-    public int obsValue = 4;
+    public int obsValue;
     public int cristalValue = 50;
     private int scoreToCristalDivider = 10;
     private int startStarNumber;

@@ -10,6 +10,7 @@ public class SpawnerWithAudio : MonoBehaviour
     private Transform playerPos;
     private AudioPeer audioPeer;
     private int obsIndex = 2;
+    private int prefabType = 1;
 
     private void Start()
     {
@@ -73,8 +74,7 @@ public class SpawnerWithAudio : MonoBehaviour
                 item.GetComponent<Obstacle>().color = GameManager.instance.antiColorType;
                 item.GetChild(0).GetComponent<MeshRenderer>().material = badMat;
             }
-
-            CreateEmptySpacesInObs(spawnedGO.transform);
+            //CreateEmptySpacesInObs(spawnedGO.transform);
             StartCoroutine(SpawnDelayCo());
         }
     }

@@ -8,7 +8,7 @@ public class AudioCubeScale : MonoBehaviour
     public bool useBuffer;
     private List<Material> materials = new List<Material>();
     public AudioPeer audioPeer;
-
+    private float emissionMultiplier=15f;
     // Start is called before the first frame update
     private void Start()
     {
@@ -29,12 +29,14 @@ public class AudioCubeScale : MonoBehaviour
 
             float audioScale = startScale - (audioPeer.audioBandBuffer[band] * GameManager.instance.BgCubeScaleMultiplier);
             transform.localScale = new Vector3(audioScale, audioScale, transform.localScale.z);
-            float audioFloat = audioPeer.audioBandBuffer[band] / 15f;
+            
+            float audioFloat = audioPeer.audioBandBuffer[band] / emissionMultiplier;
             Color color = new Color(audioFloat, audioFloat, audioFloat);
             foreach (var mat in materials)
             {
                 mat.SetColor("_EmissionColor", color);
             }
+            
         }
         else
         {
@@ -43,12 +45,13 @@ public class AudioCubeScale : MonoBehaviour
 
             float audioScale = startScale - (audioPeer.audioBand[band] * GameManager.instance.BgCubeScaleMultiplier);
             transform.localScale = new Vector3(audioScale, audioScale, transform.localScale.z);
-            float audioFloat = audioPeer.audioBand[band] / 15f;
+            
+            float audioFloat = audioPeer.audioBand[band] / emissionMultiplier;
             Color color = new Color(audioFloat, audioFloat, audioFloat);
             foreach (var mat in materials)
             {
                 mat.SetColor("_EmissionColor", color);
-            }
+            }            
         }
     }
 }

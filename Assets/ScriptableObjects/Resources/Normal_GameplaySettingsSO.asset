@@ -16,8 +16,8 @@ MonoBehaviour:
   theLowestSpawnDelay: 0.199
   changeSpawnDelayValue: 0.0125
   changeSpawnDelayTime: 10
-  obsRotationAngle: 30
-  obsValue: 8
+  obsRotationAngle: 35
+  obsValue: 4
   cristalValue: 30
-  changeColorTime: 15
+  changeColorTime: 25
   scoreToCristalDivider: 25
